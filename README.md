@@ -12,7 +12,7 @@ function mystery(a) {
     else return a[0];
 }
 ```
-#it takes an array and checks to see if the length is one, if it is it returns the only number in the array.
+#it takes an array and checks to see if the length of the array is one, if the array is it returns the only number in the array.
 #if the array is bigger than one, then it calls itself recursively until it reaches the last number in the array.
 #then the array checks if the variable foo is bigger than the first value of the initial array.
 #if foo is bigger then the first value in the array, then it returns foo, else it returns the first value in the array.
