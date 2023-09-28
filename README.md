@@ -13,6 +13,6 @@ function mystery(a) {
 }
 ```
 #it takes an array and checks to see if the length of the array is one, if the array is it returns the only number in the array.
-if the array is bigger than one, then it calls itself recursively until it reaches the last number in the array, where it sets the variable foo equal to it. then the array checks if the variable foo is bigger than the first value of the initial array. if foo is bigger then the first value in the array, then it returns foo, else it returns the first value in the array.
+if the array is bigger than one, then it calls itself recursively until it reaches the last number in the array, where it sets the variable foo equal to it. then the array checks if the variable foo is bigger than the next number in the array. it does this until it gets the biggest number in the array, and then returns that.
 
-# to put it simply it checks the first and last value of an array and returns the bigger variable, if the array is bigger than one.
+# to put it simply it checks the all the elements in the array and returns the biggest one.
